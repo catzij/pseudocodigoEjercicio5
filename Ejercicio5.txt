@@ -1,0 +1,46 @@
+inicio
+	var H;
+	var M;
+
+	mostar "Cantidad de datos para hombres";
+	leer H;
+	
+	mostar "Cantidad de datos para mujeres";
+	leer M;
+	
+	var hombres[H]
+	var i = 0 ; i < H ; i ++ ; {
+	  mostrar "ingrese datos hombre "+(H+1);
+	  leer hombre[datoh]
+	  datoh++
+	}
+	
+	var mujeres[M]
+	var i = 0 ; i < M ; i ++ ; {
+	  mostrar "ingrese datos hombre "+(M+1);
+	  leer mujeres[datom]
+	  datom++
+
+	}
+
+	var mayor;
+	var i = 0, i < M, i ++ {
+
+	  si mujeres[datom] >18
+	    mayor ++ 
+	  fin si
+	  
+	}
+
+	var menor;
+	var i = 0, i < H, i ++ {
+
+	  si hombres[datoh] <18
+	    menor ++ 
+	  fin si
+	  
+	}
+
+	mostrar "mujers mayores de edad son"+mayor;
+	mostrar "hombres menores de edad son  "+menor;
+fin
